@@ -1,0 +1,17 @@
+{
+  "UAT": {
+    "endpoint1": "https://uapi.heweather.com/x3/weather1",
+    "endpoint2": "https://uapi.heweather.com/x3/weather2",
+    "endpoint3": "https://uapi.heweather.com/x3/weather3"
+  },
+  "QA": {
+    "endpoint1": "https://qapi.heweather.com/x3/weather1",
+    "endpoint2": "https://qapi.heweather.com/x3/weather2",
+    "endpoint3": "https://qapi.heweather.com/x3/weather3"
+  },
+  "Stage": {
+    "endpoint1": "https://sapi.heweather.com/x3/weather1",
+    "endpoint2": "https://sapi.heweather.com/x3/weather2",
+    "endpoint3": "https://sapi.heweather.com/x3/weather3"
+  }
+}

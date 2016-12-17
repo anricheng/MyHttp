@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/dbgenerate" />
             <option value="$PROJECT_DIR$/http" />
             <option value="$PROJECT_DIR$/lib" />
+            <option value="$PROJECT_DIR$/okhttp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

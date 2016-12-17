@@ -1,7 +1,7 @@
 package www.imooc.com.okhttp;
 
 /**
- * @author nate
+ * @author aric
  */
 
 public class Person {

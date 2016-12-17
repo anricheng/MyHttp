@@ -7,10 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.imooc.download.utills.Logger;
-import com.imooc.service.MoocApiProvider;
-import com.imooc.service.MoocRequest;
-import com.imooc.service.MoocResponse;
+import com.aric.download.utills.Logger;
+import com.aric.service.MoocApiProvider;
+import com.aric.service.MoocRequest;
+import com.aric.service.MoocResponse;
 
 import java.io.File;
 import java.util.HashMap;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         map.put("username", "nate");
         map.put("userage", "12");
 //
-        MoocApiProvider.helloWorld("http://192.168.1.12:8080/web/HelloServlet", map, new MoocResponse<Person>() {
+        MoocApiProvider.helloWorld(map, new MoocResponse<Person>() {
 
             @Override
             public void success(MoocRequest request, Person data) {
