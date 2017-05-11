@@ -16,8 +16,7 @@ public class QueryHttp {
 
 
 
-        HttpUrl build = HttpUrl.parse("https://api.heweather.com/x3/weather").newBuilder().addQueryParameter("city", "shanghai")
-                .addQueryParameter("key", "d17ce22ec5404ed883e1cfcaca0ecaa7").build();
+        HttpUrl build = HttpUrl.parse("http://127.0.0.1:3000/");
         Request request = new Request.Builder().url(build).build();
 
         OkHttpClient okHttpClient = new OkHttpClient();
